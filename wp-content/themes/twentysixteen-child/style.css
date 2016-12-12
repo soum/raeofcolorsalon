@@ -5,4 +5,9 @@ Author: Soum
 Template: twentysixteen
 Version: 1.0.0
 */
-/*@import url("../twentysixteen/style.css");*/
+.site-branding{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid;
+	padding-bottom: 30px;
+}
