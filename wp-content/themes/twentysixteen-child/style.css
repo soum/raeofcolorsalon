@@ -5,9 +5,50 @@ Author: Soum
 Template: twentysixteen
 Version: 1.0.0
 */
-.site-branding{
-	width: 100%;
-	text-align: center;
+body {
+    background: none;
+}
+ul{
+	margin: 0;
+}
+.site-header{
+	padding: 0 30px;
 	border-bottom: 1px solid;
-	padding-bottom: 30px;
+}
+.menu-toggle{
+	width: 100%;
+}
+/*.site-header-menu {
+	margin: 0 auto;
+}
+.primary-menu {
+	width: auto;
+}*/
+.site{
+	margin: 0;
+	background-color:rgba(255,255,255,0.5);
+}
+.site-title a{
+	font-weight: lighter;
+	letter-spacing: -3px;
+	padding: 0 2px;
+}
+.site-content{
+	padding: 0;
+}
+.home-page-middle{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	text-align: center;
+}
+.home-page-middle li{
+	width: 50%;
+	background: yellow;
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.site-main > article{
+	margin-bottom: 0;
 }
