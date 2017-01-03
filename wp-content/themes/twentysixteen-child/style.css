@@ -7,6 +7,8 @@ Version: 1.0.0
 */
 body {
     background: none;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 ul{
 	margin: 0;
@@ -18,12 +20,10 @@ ul{
 .menu-toggle{
 	width: 100%;
 }
-/*.site-header-menu {
-	margin: 0 auto;
+.entry-title{
+	font-size: 20px;
+	margin-top: 20px;
 }
-.primary-menu {
-	width: auto;
-}*/
 .site{
 	margin: 0;
 	background-color:rgba(255,255,255,0.5);
@@ -51,4 +51,49 @@ ul{
 }
 .site-main > article{
 	margin-bottom: 0;
+}
+.about-content{
+	background: rgba(255,255,255,0.7);
+	padding: 10px;
+}
+.service-wrapper{
+	background: rgba(0, 0, 0, 0.7);
+	padding: 25px;
+	float: left;
+}
+.service{
+	float: left;
+	color: white;
+}
+.service > ul{
+	list-style: none;
+	width: 400px;
+}
+.service > ul > li{
+	display: flex;
+	flex-wrap: wrap;
+}
+.map-container{
+	background: rgba(0, 0, 0, 0.7);
+	float: left;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.map-container > a > img{
+	width: 100%;
+}
+.instagram-image{
+	display: flex !important;
+	flex-wrap: wrap !important;
+}
+.instagram-image-class{
+	position: relative;
+}
+.instagram-image-caption{
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0.7);
+	width: 100%;
+	padding: 0 0 0 10px;
 }
